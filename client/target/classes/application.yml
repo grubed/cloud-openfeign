@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: HelloClient
+
+server:
+  port: 7211
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://center.wisready.com/eureka
+
